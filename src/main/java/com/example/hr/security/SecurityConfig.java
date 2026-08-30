@@ -77,10 +77,10 @@ public class SecurityConfig {
         configuration.setAllowedOriginPatterns(List.of(
                 "http://localhost:*",
                 "http://127.0.0.1:*",
-                "http://hrquanlynhansu.free.je",
-                "https://hrquanlynhansu.free.je",
-                "http://www.hrquanlynhansu.free.je",
-                "https://www.hrquanlynhansu.free.je"
+                "http://hrquanlynhansu01.xo.je",
+                "https://hrquanlynhansu01.xo.je",
+                "http://www.hrquanlynhansu01.xo.je",
+                "https://www.hrquanlynhansu01.xo.je"
         ));
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(List.of("*"));
